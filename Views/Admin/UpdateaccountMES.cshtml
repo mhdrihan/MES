@@ -1,0 +1,49 @@
+﻿@model MES.Models.masteruser
+
+<div class="card mt-5">
+    <div class="card-header bg-secondary text-white">Update Data @* as @Accessor.HttpContext.Session.GetString("Username") with role = @Accessor.HttpContext.Session.GetInt32("Role")*@</div>
+    <div class="card-body">
+
+        @using (Html.BeginForm("UpdateaccountMES", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+            @* <div class="mb-3">
+        <label for="Id_GradeLevel" class="form-label">Id Grade Level</label>
+        @Html.TextBoxFor(m=>m.Id_GradeLevel, new{@class="form-control"})
+        </div>*@
+
+        @Html.HiddenFor(m => m.ID_User)
+
+@*
+            <div class="mb-3">
+                <label for="ID_User" class="form-label">Username</label>
+                @Html.TextBoxFor(m=>m.ID_User, new{@class="form-control"})
+            </div>*@
+
+            <div class="mb-3">
+                <label for="Username" class="form-label">Username</label>
+                @Html.TextBoxFor(m=>m.Username, new{@class="form-control"})
+            </div>
+
+            <div class="mb-3">
+                <label for="Password" class="form-label">Password</label>
+                @Html.TextBoxFor(m=>m.Password, new{@class="form-control"})
+            </div>
+
+            <div class="mb-3">
+                <label for="Station_ID" class="form-label">Station ID</label>
+                @Html.TextBoxFor(m=>m.Station_ID, new{@class="form-control"})
+            </div>
+
+            <div class="mb-3">
+                <label for="User_Level" class="form-label">User Level</label>
+                @Html.TextBoxFor(m=>m.User_Level, new{@class="form-control"})
+            </div>
+
+            <button type="submit" class="btn btn-primary mb-3">Submit</button>
+            <button type="reset" class="btn btn-danger mb-3">Reset</button>
+
+        }
+
+    </div>
+</div>

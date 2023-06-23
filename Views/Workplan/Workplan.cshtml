@@ -1,0 +1,78 @@
+﻿@*@model CrudOperation.Models.WorkplanModel
+@{
+    ViewData["Title"] = "Views Workplan";
+}
+<h1>WorkPlan</h1>
+<br />
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <th>Flow ID</th>
+            <th>Flow Name</th>
+            <th>Refference Name</th>
+            <th>Line ID</th>
+            <th>Valid Status</th>
+            <th>Revision Number</th>
+            <th>Last Modify</th>
+            <th>Transact By</th>
+            <th>Flow Description</th>
+            <th>Process Qty</th>
+            <th>Process 1</th>
+            <th>Process 2</th>
+            <th>Process 3</th>
+            <th>Process 4</th>
+            <th>Process 5</th>
+            <th>Process 6</th>
+            <th>Process 7</th>
+            <th>Process 8</th>
+            <th>Process 9</th>
+            <th>Process 10</th>
+            <th>Process 11</th>
+            <th>Process 12</th>
+        </tr>
+        @if (Model.WorkplanList.Count > 0)
+        {
+            foreach (var item in Model.WorkplanList)
+            {
+                <tr>
+                    <td>@item.Flow ID</td
+                    <td>@item.Flow Name</td>
+                    <td>@item.Refference Name</td>
+                    <td>@item.Line ID</td>
+                    <td>@item.Valid Status</td>
+                    <td>@item.Revision Number</td>
+                    <td>@item.Last Modify</td>
+                    <td>@item.Transact By</td>
+                    <td>@item.Flow Description</td>
+                    <td>@item.Process Qty</td>
+                    <td>@item.Process 1</td>
+                    <td>@item.Process 2</td>
+                    <td>@item.Process 3</td>
+                    <td>@item.Process 4</td>
+                    <td>@item.Process 5</td>
+                    <td>@item.Process 6</td>
+                    <td>@item.Process 7</td>
+                    <td>@item.Process 8</td>
+                    <td>@item.Process 9</td>
+                    <td>@item.Process 10</td>
+                    <td>@item.Process 11</td>
+                    <td>@item.Process 12</td>
+                    <td>
+                        <a href="">Update</a>&nbsp;|&nbsp;
+                        <a href="">Delete</a>
+                    </td>
+
+
+                </tr>
+            }
+        }else
+        {
+            <tr>
+                <td colspan="5">Sorry no record found</td>
+            </tr>
+        }
+    </thead>
+</table>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@

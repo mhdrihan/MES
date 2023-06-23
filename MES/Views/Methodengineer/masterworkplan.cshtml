@@ -1,0 +1,165 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_layout_methodengineer";
+}
+<div class="card shadow mb-4">
+    <div class="card-header">
+        <div class="row justify-content-center">
+            <div class="col-sm-10">
+                <h6 class="m-0 font-weight-bold text-primary text-lg card-title btn-sm">Master Workplan</h6>
+            </div>
+            <div class="col-sm-1">
+                <a class="btn btn-success btn-sm" href="../Methodengineer/Savemasterworkplan">
+                    <i></i>Add Data
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Flow ID</th>
+                        <th>Flow Name</th>
+                        <th>Refference Name</th>
+                        <th>Line ID </th>
+                        <th>Valid Status</th>
+                        <th>Revision Number</th>
+                        <th>Last Modify</th>
+                        <th>Transact By</th>
+                        <th>Flow Description</th>
+                        <th>Process Qty</th>
+                        <th>Process 1</th>
+                        <th>Process 2</th>
+                        <th>Process 3</th>
+                        <th>Process 4</th>
+                        <th>Process 5</th>
+                        <th>Process 6</th>
+                        <th>Process 7</th>
+                        <th>Process 8</th>
+                        <th>Process 9</th>
+                        <th>Process 10</th>
+                        <th>Process 11</th>
+                        <th>Process 12</th>
+                        <th>Process 13</th>
+                        <th>Process 14</th>
+                        <th>Process 15</th>
+                        <th>Process 16</th>
+                        <th>Process 17</th>
+                        <th>Process 18</th>
+                        <th>Process 19</th>
+                        <th>Process 20</th>
+                        <th>Process 21</th>
+                        <th>Process 22</th>
+                        <th>Process 23</th>
+                        <th>Process 24</th>
+                        <th>Process 25</th>
+                        <th>Process 26</th>
+                        <th>Process 27</th>
+                        <th>Process 28</th>
+                        <th>Process 29</th>
+                        <th>Process 30</th>
+                        <th>Process 31</th>
+                        <th>Process 32</th>
+                        <th>Process 33</th>
+                        <th>Process 34</th>
+                        <th>Process 35</th>
+                        <th>Process 36</th>
+                        <th>Process 37</th>
+                        <th>Process 38</th>
+                        <th>Process 39</th>
+                        <th>Process 40</th>
+                        <th>Process 41</th>
+                        <th>Process 42</th>
+                        <th>Process 43</th>
+                        <th>Process 44</th>
+                        <th>Process 45</th>
+                        <th>Process 46</th>
+                        <th>Process 47</th>
+                        <th>Process 48</th>
+                        <th>Process 49</th>
+                        <th>Process 50</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.WorkplanList.Count > 0)
+                    {
+                        foreach (var masterworkplan in @Model.WorkplanList)
+                        {
+                            <tr>
+                                <td>@masterworkplan.Flow_ID</td>
+                                <td>@masterworkplan.Flow_Name</td>
+                                <td>@masterworkplan.Refference_Name</td>
+                                <td>@masterworkplan.Line_ID</td>
+                                <td>@masterworkplan.Valid_Status</td>
+                                <td>@masterworkplan.Revision_Number</td>
+                                <td>@masterworkplan.Last_Modify</td>
+                                <td>@masterworkplan.Transact_By</td>
+                                <td>@masterworkplan.Flow_Description</td>
+                                <td>@masterworkplan.Process_Qty</td>
+                                <td>@masterworkplan.Process_1</td>
+                                <td>@masterworkplan.Process_2</td>
+                                <td>@masterworkplan.Process_3</td>
+                                <td>@masterworkplan.Process_4</td>
+                                <td>@masterworkplan.Process_5</td>
+                                <td>@masterworkplan.Process_6</td>
+                                <td>@masterworkplan.Process_7</td>
+                                <td>@masterworkplan.Process_8</td>
+                                <td>@masterworkplan.Process_9</td>
+                                <td>@masterworkplan.Process_10</td>
+                                <td>@masterworkplan.Process_11</td>
+                                <td>@masterworkplan.Process_12</td>
+                                <td>@masterworkplan.Process_13</td>
+                                <td>@masterworkplan.Process_14</td>
+                                <td>@masterworkplan.Process_15</td>
+                                <td>@masterworkplan.Process_16</td>
+                                <td>@masterworkplan.Process_17</td>
+                                <td>@masterworkplan.Process_18</td>
+                                <td>@masterworkplan.Process_19</td>
+                                <td>@masterworkplan.Process_20</td>
+                                <td>@masterworkplan.Process_21</td>
+                                <td>@masterworkplan.Process_22</td>
+                                <td>@masterworkplan.Process_23</td>
+                                <td>@masterworkplan.Process_24</td>
+                                <td>@masterworkplan.Process_25</td>
+                                <td>@masterworkplan.Process_26</td>
+                                <td>@masterworkplan.Process_27</td>
+                                <td>@masterworkplan.Process_28</td>
+                                <td>@masterworkplan.Process_29</td>
+                                <td>@masterworkplan.Process_30</td>
+                                <td>@masterworkplan.Process_31</td>
+                                <td>@masterworkplan.Process_32</td>
+                                <td>@masterworkplan.Process_33</td>
+                                <td>@masterworkplan.Process_34</td>
+                                <td>@masterworkplan.Process_35</td>
+                                <td>@masterworkplan.Process_36</td>
+                                <td>@masterworkplan.Process_37</td>
+                                <td>@masterworkplan.Process_38</td>
+                                <td>@masterworkplan.Process_39</td>
+                                <td>@masterworkplan.Process_40</td>
+                                <td>@masterworkplan.Process_41</td>
+                                <td>@masterworkplan.Process_42</td>
+                                <td>@masterworkplan.Process_43</td>
+                                <td>@masterworkplan.Process_44</td>
+                                <td>@masterworkplan.Process_45</td>
+                                <td>@masterworkplan.Process_46</td>
+                                <td>@masterworkplan.Process_47</td>
+                                <td>@masterworkplan.Process_48</td>
+                                <td>@masterworkplan.Process_49</td>
+                                <td>@masterworkplan.Process_50</td>
+                                <td>
+                                    <a href="../Methodengineer/Updatemasterworkplan/?Flowid=@masterworkplan.Flow_ID" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a href="../Methodengineer/Deletemasterworkplan/?Flowid=@masterworkplan.Flow_ID" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

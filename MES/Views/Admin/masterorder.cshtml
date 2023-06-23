@@ -1,0 +1,67 @@
+﻿<div class="card shadow mb-4">
+    <div class="card-header">
+        <div class="row justify-content-center">
+            <div class="col-sm-10">
+                <h6 class="m-0 font-weight-bold text-primary text-lg card-title btn-sm">Master Order</h6>
+            </div>
+            <div class="col-sm-1">
+                <a class="btn btn-success btn-sm" href="../Admin/Savemasterorder">
+                    <i></i>Add Data
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Work Order</th>
+                        <th>Refference Name</th>
+                        <th>Work Plan</th>
+                        <th>Qty Order</th>
+                        <th>Qty Launching</th>
+                        <th>Status Order</th>
+                        <th>Date Order</th>
+                        <th>Date Complete</th>
+                        <th>Transact By</th>
+                        <th>Username</th>
+                        <th>WO_Comment</th>
+                        <th>Priority WO</th>
+                        <th>Station ID</th>
+                        <th>Station Suffix</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.OrderList.Count > 0)
+                    {
+                        foreach (var masterorder in @Model.OrderList)
+                        {
+                            <tr>
+                                <td>@masterorder.Work_Order</td>
+                                <td>@masterorder.Refference_Name</td>
+                                <td>@masterorder.Work_Plan</td>
+                                <td>@masterorder.Qty_Order</td>
+                                <td>@masterorder.Qty_Launching</td>
+                                <td>@masterorder.Status_Order</td>
+                                <td>@masterorder.Date_Order</td>
+                                <td>@masterorder.Date_Complete</td>
+                                <td>@masterorder.Transact_By</td>
+                                <td>@masterorder.Username</td>
+                                <td>@masterorder.WO_Comment</td>
+                                <td>@masterorder.Priority_WO</td>
+                                <td>@masterorder.Station_ID</td>
+                                <td>@masterorder.Station_Suffix</td>
+                                <td>
+                                    <a href="../Admin/Updatemasterorder/?Workorder=@masterorder.Work_Order" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a href="../Admin/Deletemasterorder/?Workorder=@masterorder.Work_Order" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

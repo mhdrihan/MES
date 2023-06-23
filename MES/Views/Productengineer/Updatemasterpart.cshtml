@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "_layout_productengineer";
+}
+@model MES.Models.masterpart
+
+<div class="card mt-5">
+    <div class="card-header bg-secondary text-white">Update Data @* as @Accessor.HttpContext.Session.GetString("Username") with role = @Accessor.HttpContext.Session.GetInt32("Role")*@</div>
+    <div class="card-body">
+
+        @using (Html.BeginForm("Updatemasterpart", "Productengineer", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+            @Html.HiddenFor(m => m.Material_ID)
+
+            <div class="form-group">
+                <label for="Material_Name" class="form-label">Material Name</label>
+                @Html.DropDownListFor(m=>m.Material_Name, ViewBag.MaterialID as SelectList, "Pilih Material Name", new {@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Vendor" class="form-label">Vendor</label>
+                @Html.TextBoxFor(m=>m.Vendor, new{@class="form-control"})
+            </div>
+            <div class="modal-footer">
+                <a href="/Productengineer/master_partPE" class="btn btn-secondary">Close</a>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+        }
+
+    </div>
+</div>

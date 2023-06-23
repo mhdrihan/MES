@@ -1,0 +1,61 @@
+﻿<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Master Order</h6>
+        <a class="btn btn-success btn-lg" >
+            <i></i>Add Data
+        </a>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Serial Number</th>
+                        <th>Batch ID</th>
+                        <th>Refference Name</th>
+                        <th>Work Order</th>
+                        <th>Station ID</th>
+                        <th>Station Suffix</th>
+                        <th>Station Name</th>
+                        <th>User ID</th>
+                        <th>Cavity Number</th>
+                        <th>Time In</th>
+                        <th>Time Out</th>
+                        <th>Status Result</th>
+                        <th>Status Running</th>
+                        <th>Transact By</th>
+                        <th>Full Refference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Traceabillitylist.Count > 0)
+                    {
+                        foreach (var Traceabillity in @Model.Traceabillitylist)
+                        {
+                            <tr>
+                                <td>@Traceabillity.Serial_Number</td>
+                                <td>@Traceabillity.Batch_ID</td>
+                                <td>@Traceabillity.Refference_Name</td>
+                                <td>@Traceabillity.Work_Order</td>
+                                <td>@Traceabillity.Station_ID</td>
+                                <td>@Traceabillity.Station_Suffix</td>
+                                <td>@Traceabillity.Station_Name</td>
+                                <td>@Traceabillity.User_ID</td>
+                                <td>@Traceabillity.Cavity_Number</td>
+                                <td>@Traceabillity.Time_In</td>
+                                <td>@Traceabillity.Time_Out</td>
+                                <td>@Traceabillity.Status_Result</td>
+                                <td>@Traceabillity.Status_Running</td>
+                                <td>@Traceabillity.Transact_By</td>
+                                <td>@Traceabillity.FullRefference</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>

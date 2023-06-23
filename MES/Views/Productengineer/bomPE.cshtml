@@ -1,0 +1,158 @@
+﻿@{
+    Layout = "_layout_productengineer";
+}
+<div class="card shadow mb-4">
+    <div class="card-header">
+        <div class="row justify-content-center">
+            <div class="col-sm-10">
+                <h6 class="m-0 font-weight-bold text-primary text-lg card-title btn-sm">Bom Editor</h6>
+            </div>
+            <div class="col-sm-1">
+                <a class="btn btn-success btn-sm" href="../Productengineer/SavebomPE">
+                    <i></i>Add Data
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Material Name</th>
+                        <th>References Name</th>
+                        <th>Station ID</th>
+                        <th>Revision Number</th>
+                        <th>last modify</th>
+                        <th>transact by</th>
+                        <th>Part qty</th>
+                        <th>Part 1</th>
+                        <th>Part 2</th>
+                        <th>Part 3</th>
+                        <th>Part 4</th>
+                        <th>Part 5</th>
+                        <th>Part 6</th>
+                        <th>Part 7</th>
+                        <th>Part 8</th>
+                        <th>Part 9</th>
+                        <th>Part 10</th>
+                        <th>Part 11</th>
+                        <th>Part 12</th>
+                        <th>Part 13</th>
+                        <th>Part 14</th>
+                        <th>Part 15</th>
+                        <th>Part 16</th>
+                        <th>Part 17</th>
+                        <th>Part 18</th>
+                        <th>Part 19</th>
+                        <th>Part 20</th>
+                        <th>Part 21</th>
+                        <th>Part 22</th>
+                        <th>Part 23</th>
+                        <th>Part 24</th>
+                        <th>Part 25</th>
+                        <th>Part 26</th>
+                        <th>Part 27</th>
+                        <th>Part 28</th>
+                        <th>Part 29</th>
+                        <th>Part 30</th>
+                        <th>Part 31</th>
+                        <th>Part 32</th>
+                        <th>Part 33</th>
+                        <th>Part 34</th>
+                        <th>Part 35</th>
+                        <th>Part 36</th>
+                        <th>Part 37</th>
+                        <th>Part 38</th>
+                        <th>Part 39</th>
+                        <th>Part 40</th>
+                        <th>Part 41</th>
+                        <th>Part 42</th>
+                        <th>Part 43</th>
+                        <th>Part 44</th>
+                        <th>Part 45</th>
+                        <th>Part 46</th>
+                        <th>Part 47</th>
+                        <th>Part 48</th>
+                        <th>Part 49</th>
+                        <th>Part 50</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.BomList.Count > 0)
+                    {
+                        foreach (var bom in @Model.BomList)
+                        {
+                            <tr>
+                                <td>@bom.Material_Id</td>
+                                <td>@bom.Material_Name</td>
+                                <td>@bom.Refference_Name</td>
+                                <td>@bom.Station_Id</td>
+                                <td>@bom.Revision_Number</td>
+                                <td>@bom.Last_Modify</td>
+                                <td>@bom.Transact_By</td>
+                                <td>@bom.Part_Qty</td>
+                                <td>@bom.Part_1</td>
+                                <td>@bom.Part_2</td>
+                                <td>@bom.Part_3</td>
+                                <td>@bom.Part_4</td>
+                                <td>@bom.Part_5</td>
+                                <td>@bom.Part_6</td>
+                                <td>@bom.Part_7</td>
+                                <td>@bom.Part_8</td>
+                                <td>@bom.Part_9</td>
+                                <td>@bom.Part_10</td>
+                                <td>@bom.Part_11</td>
+                                <td>@bom.Part_12</td>
+                                <td>@bom.Part_13</td>
+                                <td>@bom.Part_14</td>
+                                <td>@bom.Part_15</td>
+                                <td>@bom.Part_16</td>
+                                <td>@bom.Part_17</td>
+                                <td>@bom.Part_18</td>
+                                <td>@bom.Part_19</td>
+                                <td>@bom.Part_20</td>
+                                <td>@bom.Part_21</td>
+                                <td>@bom.Part_22</td>
+                                <td>@bom.Part_23</td>
+                                <td>@bom.Part_24</td>
+                                <td>@bom.Part_25</td>
+                                <td>@bom.Part_26</td>
+                                <td>@bom.Part_27</td>
+                                <td>@bom.Part_28</td>
+                                <td>@bom.Part_29</td>
+                                <td>@bom.Part_30</td>
+                                <td>@bom.Part_31</td>
+                                <td>@bom.Part_32</td>
+                                <td>@bom.Part_33</td>
+                                <td>@bom.Part_34</td>
+                                <td>@bom.Part_35</td>
+                                <td>@bom.Part_36</td>
+                                <td>@bom.Part_37</td>
+                                <td>@bom.Part_38</td>
+                                <td>@bom.Part_39</td>
+                                <td>@bom.Part_40</td>
+                                <td>@bom.Part_41</td>
+                                <td>@bom.Part_42</td>
+                                <td>@bom.Part_43</td>
+                                <td>@bom.Part_44</td>
+                                <td>@bom.Part_45</td>
+                                <td>@bom.Part_46</td>
+                                <td>@bom.Part_47</td>
+                                <td>@bom.Part_48</td>
+                                <td>@bom.Part_49</td>
+                                <td>@bom.Part_50</td>
+                                <td>
+                                    <a href="../Productengineer/Updatebom/?Materialid=@bom.Material_Id" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a href="../Admin/Deletebom/?Materialid=@bom.Material_Id" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

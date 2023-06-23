@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "_layout_production";
+}
+<div class="card shadow mb-4">
+    <div class="card-header">
+        <div class="row justify-content-center">
+            <div class="col-sm-10">
+                <h6 class="m-0 font-weight-bold text-primary text-lg card-title btn-sm">Master Refference</h6>
+            </div>
+            <div class="col-sm-1">
+                <a class="btn btn-success btn-sm" href="../Production/Savemasterreference">
+                    <i></i>Add Data
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Refference ID</th>
+                        <th>Refference Name</th>
+                        <th>Refference Description</th>
+                        <th>Last Modify</th>
+                        <th>Transact By</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.RefferenceList.Count > 0)
+                    {
+                        foreach (var master_refference in @Model.RefferenceList)
+                        {
+                            <tr>
+                                <td>@master_refference.Refference_ID</td>
+                                <td>@master_refference.Refference_Name</td>
+                                <td>@master_refference.Refference_Description</td>
+                                <td>@master_refference.Last_Modify</td>
+                                <td>@master_refference.Transact_By</td>
+                                <td>
+                                    <a href="../Production/Updatemasterreference/?Refferenceid=@master_refference.Refference_ID" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a href="../Production/Deletemasterreference/?Refferenceid=@master_refference.Refference_ID" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

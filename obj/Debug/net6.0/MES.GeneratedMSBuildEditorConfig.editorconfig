@@ -1,0 +1,465 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MES
+build_property.RootNamespace = MES
+build_property.ProjectDir = D:\iRihan\KULIAH\SEMESTER 4\PBL\MES\MES\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\iRihan\KULIAH\SEMESTER 4\PBL\MES\MES
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/accountMES.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXGFjY291bnRNRVMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/bom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXGJvbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/masterline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXG1hc3RlcmxpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/masterorder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXG1hc3Rlcm9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/masterstation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXG1hc3RlcnN0YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/masterworkplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXG1hc3RlcndvcmtwbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/master_part.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXG1hc3Rlcl9wYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/master_reference.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXG1hc3Rlcl9yZWZlcmVuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/SaveaccountMES.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFNhdmVhY2NvdW50TUVTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Savebom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFNhdmVib20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Savemasterline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFNhdmVtYXN0ZXJsaW5lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Savemasterorder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFNhdmVtYXN0ZXJvcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Savemasterpart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFNhdmVtYXN0ZXJwYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Savemasterreference.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFNhdmVtYXN0ZXJyZWZlcmVuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Savemasterstation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFNhdmVtYXN0ZXJzdGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Savemasterworkplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFNhdmVtYXN0ZXJ3b3JrcGxhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Saveserialcounter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFNhdmVzZXJpYWxjb3VudGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/serialcounterAd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXHNlcmlhbGNvdW50ZXJBZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/traceabillityAd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXHRyYWNlYWJpbGxpdHlBZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/UpdateaccountMES.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFVwZGF0ZWFjY291bnRNRVMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Updatebom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFVwZGF0ZWJvbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Updatemasterline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFVwZGF0ZW1hc3RlcmxpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Updatemasterorder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFVwZGF0ZW1hc3Rlcm9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Updatemasterpart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFVwZGF0ZW1hc3RlcnBhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Updatemasterreference.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFVwZGF0ZW1hc3RlcnJlZmVyZW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Updatemasterstation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFVwZGF0ZW1hc3RlcnN0YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/Updatemasterworkplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXFVwZGF0ZW1hc3RlcndvcmtwbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Admin/user.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEFkbWluXHVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Maintenance/maintenance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1haW50ZW5hbmNlXG1haW50ZW5hbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Maintenance/masterlineM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1haW50ZW5hbmNlXG1hc3RlcmxpbmVNLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Maintenance/masterstationM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1haW50ZW5hbmNlXG1hc3RlcnN0YXRpb25NLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Maintenance/Savemasterline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1haW50ZW5hbmNlXFNhdmVtYXN0ZXJsaW5lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Maintenance/Savemasterstation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1haW50ZW5hbmNlXFNhdmVtYXN0ZXJzdGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Maintenance/Updatemasterline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1haW50ZW5hbmNlXFVwZGF0ZW1hc3RlcmxpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Maintenance/Updatemasterstation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1haW50ZW5hbmNlXFVwZGF0ZW1hc3RlcnN0YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Maintenance/_Layout_maintenance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1haW50ZW5hbmNlXF9MYXlvdXRfbWFpbnRlbmFuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Methodengineer/masterstationME.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1ldGhvZGVuZ2luZWVyXG1hc3RlcnN0YXRpb25NRS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Methodengineer/masterworkplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1ldGhvZGVuZ2luZWVyXG1hc3RlcndvcmtwbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Methodengineer/MethodEngineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1ldGhvZGVuZ2luZWVyXE1ldGhvZEVuZ2luZWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Methodengineer/Savemasterstation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1ldGhvZGVuZ2luZWVyXFNhdmVtYXN0ZXJzdGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Methodengineer/Savemasterworkplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1ldGhvZGVuZ2luZWVyXFNhdmVtYXN0ZXJ3b3JrcGxhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Methodengineer/Updatemasterstation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1ldGhvZGVuZ2luZWVyXFVwZGF0ZW1hc3RlcnN0YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Methodengineer/Updatemasterworkplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1ldGhvZGVuZ2luZWVyXFVwZGF0ZW1hc3RlcndvcmtwbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Methodengineer/workplanME.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1ldGhvZGVuZ2luZWVyXHdvcmtwbGFuTUUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Methodengineer/_Layout_methodengineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXE1ldGhvZGVuZ2luZWVyXF9MYXlvdXRfbWV0aG9kZW5naW5lZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Productengineer/bomPE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3RlbmdpbmVlclxib21QRS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Productengineer/partmasterPE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3RlbmdpbmVlclxwYXJ0bWFzdGVyUEUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Productengineer/ProductEngineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3RlbmdpbmVlclxQcm9kdWN0RW5naW5lZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Productengineer/SavebomPE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3RlbmdpbmVlclxTYXZlYm9tUEUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Productengineer/Updatebom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3RlbmdpbmVlclxVcGRhdGVib20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Productengineer/_Layout_productengineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3RlbmdpbmVlclxfTGF5b3V0X3Byb2R1Y3RlbmdpbmVlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/masterorderOP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cbWFzdGVyb3JkZXJPUC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/master_referenceOP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cbWFzdGVyX3JlZmVyZW5jZU9QLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/master_workplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cbWFzdGVyX3dvcmtwbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/Production.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cUHJvZHVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/Savemasterorder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cU2F2ZW1hc3Rlcm9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/Savemasterreference.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cU2F2ZW1hc3RlcnJlZmVyZW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/Savemasterworkplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cU2F2ZW1hc3RlcndvcmtwbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/Updatemasterorder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cVXBkYXRlbWFzdGVyb3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/Updatemasterreference.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cVXBkYXRlbWFzdGVycmVmZXJlbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/Updatemasterworkplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cVXBkYXRlbWFzdGVyd29ya3BsYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Production/_Layout_production.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFByb2R1Y3Rpb25cX0xheW91dF9wcm9kdWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Workplan/Workplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFdvcmtwbGFuXFdvcmtwbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/accountMES.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYWNjb3VudE1FUy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/bom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYm9tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/machine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cbWFjaGluZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/masterline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cbWFzdGVybGluZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/masterorder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cbWFzdGVyb3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/masterstation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cbWFzdGVyc3RhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/masterworkplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cbWFzdGVyd29ya3BsYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/master_reference.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cbWFzdGVyX3JlZmVyZW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cb3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/partmaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5ccGFydG1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/SaveaccountMES.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2F2ZWFjY291bnRNRVMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/UpdateaccountMES.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlYWNjb3VudE1FUy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Admin/user.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Maintenance/maintenance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcbWFpbnRlbmFuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Maintenance/masterlineM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcbWFzdGVybGluZU0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Maintenance/masterstationM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcbWFzdGVyc3RhdGlvbk0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Maintenance/_Layout_maintenance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcX0xheW91dF9tYWludGVuYW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Methodengineer/masterstationME.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0aG9kZW5naW5lZXJcbWFzdGVyc3RhdGlvbk1FLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Methodengineer/masterworkplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0aG9kZW5naW5lZXJcbWFzdGVyd29ya3BsYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Methodengineer/MethodEngineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0aG9kZW5naW5lZXJcTWV0aG9kRW5naW5lZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Methodengineer/workplanME.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0aG9kZW5naW5lZXJcd29ya3BsYW5NRS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Methodengineer/_Layout_methodengineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0aG9kZW5naW5lZXJcX0xheW91dF9tZXRob2RlbmdpbmVlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Productengineer/bomPE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGVuZ2luZWVyXGJvbVBFLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Productengineer/partmasterPE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGVuZ2luZWVyXHBhcnRtYXN0ZXJQRS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Productengineer/ProductEngineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGVuZ2luZWVyXFByb2R1Y3RFbmdpbmVlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Productengineer/_Layout_productengineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGVuZ2luZWVyXF9MYXlvdXRfcHJvZHVjdGVuZ2luZWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Production/masterorderOP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvblxtYXN0ZXJvcmRlck9QLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Production/master_referenceOP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvblxtYXN0ZXJfcmVmZXJlbmNlT1AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Production/master_workplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvblxtYXN0ZXJfd29ya3BsYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Production/orderOP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvblxvcmRlck9QLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Production/Production.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvblxQcm9kdWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Production/_Layout_production.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGlvblxfTGF5b3V0X3Byb2R1Y3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Workplan/Workplan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya3BsYW5cV29ya3BsYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/MES/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TUVTXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-fslqijxy8p
+
+[D:/iRihan/KULIAH/SEMESTER 4/PBL/MES/MES/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-oxnd6wfgjx

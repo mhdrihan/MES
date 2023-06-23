@@ -1,0 +1,43 @@
+﻿<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+        <a href="../Admin/SaveaccountMES/" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Tambah">
+            <i></i>Add Data
+        </a>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID_User</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Station ID</th>
+                        <th>User Level</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.MasterList.Count > 0)
+                    {
+                        foreach (var masteruser in @Model.MasterList)
+                        {
+                            <tr>
+                                <td>@masteruser.ID_User</td>
+                                <td>@masteruser.Username</td>
+                                <td>@masteruser.Password</td>
+                                <td>@masteruser.Station_ID</td>
+                                <td>@masteruser.User_Level</td>
+                                <td>
+                                    <a href="../Admin/SaveaccountMES/?Iduser=@masteruser.ID_User" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#Update"><i class="fas fa-edit"></i></a>
+                                    <a href="../Admin/DeleteaccountMES/?Iduser=@masteruser.ID_User" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

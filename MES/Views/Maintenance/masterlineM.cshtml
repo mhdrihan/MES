@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "_layout_maintenance";
+}
+<div class="card shadow mb-4">
+    <div class="card-header">
+        <div class="row justify-content-center">
+            <div class="col-sm-10">
+                <h6 class="m-0 font-weight-bold text-primary text-lg card-title btn-sm">Master Line</h6>
+            </div>
+            <div class="col-sm-1">
+                <a class="btn btn-success btn-sm" href="../Maintenance/savemasterline">
+                    <i></i>Add Data
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Line ID</th>
+                        <th>Line Name</th>
+                        <th>Line Location</th>
+                        <th>Line Description</th>
+                        <th>Last Modify</th>
+                        <th>Transact By</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.LineList.Count > 0)
+                    {
+                        foreach (var masterline in @Model.LineList)
+                        {
+                            <tr>
+                                <td>@masterline.Line_ID</td>
+                                <td>@masterline.Line_Name</td>
+                                <td>@masterline.Line_Location</td>
+                                <td>@masterline.Line_Description</td>
+                                <td>@masterline.Last_Modify</td>
+                                <td>@masterline.Transact_By</td>
+                                <td>
+                                    <a href="../Maintenance/Updatemasterline/?Lineid=@masterline.Line_ID" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a href="../Maintenance/Deletemasterline/?Lineid=@masterline.Line_ID" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

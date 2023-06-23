@@ -1,0 +1,256 @@
+﻿@{
+    Layout = "_layout_productengineer";
+}
+@model MES.Models.bomeditor
+
+<div class="card mt-5">
+    <div class="card-header bg-secondary text-white">Update Data @* as @Accessor.HttpContext.Session.GetString("Username") with role = @Accessor.HttpContext.Session.GetInt32("Role")*@</div>
+    <div class="card-body">
+
+        @using (Html.BeginForm("Updatebom", "Productengineer", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+            @* <div class="mb-3">
+        <label for="Id_GradeLevel" class="form-label">Id Grade Level</label>
+        @Html.TextBoxFor(m=>m.Id_GradeLevel, new{@class="form-control"})
+        </div>*@
+
+            @Html.HiddenFor(m => m.Material_Id)
+
+            <div class="form-group">
+                <label for="Material_Name" class="form-label">Material_Name</label>
+                @Html.TextBoxFor(m=>m.Material_Name, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Refference_Name" class="form-label">Refference Name</label>
+                @Html.TextBoxFor(m=>m.Refference_Name, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Station_ID" class="form-label">Station ID</label>
+                @Html.DropDownListFor(m=>m.Station_Id, ViewBag.StationID as SelectList, "Pilih Station", new {@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Revision_Number" class="form-label">Revision Number</label>
+                @Html.TextBoxFor(m=>m.Revision_Number, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Last_Modify" class="form-label">Last Modify</label>
+                @Html.TextBoxFor(m=>m.Last_Modify, new{@class="form-control datepicker" , @type = "datetime-local"})
+            </div>
+            <div class="form-group">
+                <label for="Transact_By" class="form-label">Transact By</label>
+                @Html.TextBoxFor(m=>m.Transact_By, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_Qty" class="form-label">Part_Qty</label>
+                @Html.TextBoxFor(m=>m.Part_Qty, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_1" class="form-label">Part 1</label>
+                @Html.TextBoxFor(m=>m.Part_1, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_2" class="form-label">Part 2</label>
+                @Html.TextBoxFor(m=>m.Part_2, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_3" class="form-label">Part 3</label>
+                @Html.TextBoxFor(m=>m.Part_3, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_4" class="form-label">Part_4</label>
+                @Html.TextBoxFor(m=>m.Part_4, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_5" class="form-label">Part 5</label>
+                @Html.TextBoxFor(m=>m.Part_5, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_6" class="form-label">Part 6</label>
+                @Html.TextBoxFor(m=>m.Part_6, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_7" class="form-label">Part 7</label>
+                @Html.TextBoxFor(m=>m.Part_7, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_8" class="form-label">Part 8</label>
+                @Html.TextBoxFor(m=>m.Part_8, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_9" class="form-label">Part_9</label>
+                @Html.TextBoxFor(m=>m.Part_9, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_10" class="form-label">Part_10</label>
+                @Html.TextBoxFor(m=>m.Part_10, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_11" class="form-label">Part 11</label>
+                @Html.TextBoxFor(m=>m.Part_11, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_12" class="form-label">Part 12</label>
+                @Html.TextBoxFor(m=>m.Part_12, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_13" class="form-label">Part 13</label>
+                @Html.TextBoxFor(m=>m.Part_13, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_14" class="form-label">Part 14</label>
+                @Html.TextBoxFor(m=>m.Part_14, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_15" class="form-label">Part 15</label>
+                @Html.TextBoxFor(m=>m.Part_15, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_16" class="form-label">Part 16</label>
+                @Html.TextBoxFor(m=>m.Part_16, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_17" class="form-label">Part 17</label>
+                @Html.TextBoxFor(m=>m.Part_17, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_18" class="form-label">Part 18</label>
+                @Html.TextBoxFor(m=>m.Part_18, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_19" class="form-label">Part 19</label>
+                @Html.TextBoxFor(m=>m.Part_19, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_20" class="form-label">Part 20</label>
+                @Html.TextBoxFor(m=>m.Part_20, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_21 class="form-label">Part 21</label>
+                @Html.TextBoxFor(m=>m.Part_21, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_22" class="form-label">Part 22</label>
+                @Html.TextBoxFor(m=>m.Part_22, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_23" class="form-label">Part 23</label>
+                @Html.TextBoxFor(m=>m.Part_23, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_24" class="form-label">Part 24</label>
+                @Html.TextBoxFor(m=>m.Part_24, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_25" class="form-label">Part 25</label>
+                @Html.TextBoxFor(m=>m.Part_25, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_26" class="form-label">Part 26</label>
+                @Html.TextBoxFor(m=>m.Part_26, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_27" class="form-label">Part 27</label>
+                @Html.TextBoxFor(m=>m.Part_27, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_28" class="form-label">Part 28</label>
+                @Html.TextBoxFor(m=>m.Part_28, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_29" class="form-label">Part 29</label>
+                @Html.TextBoxFor(m=>m.Part_29, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_30" class="form-label">Part 30</label>
+                @Html.TextBoxFor(m=>m.Part_30, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_31" class="form-label">Part 31</label>
+                @Html.TextBoxFor(m=>m.Part_31, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_32" class="form-label">Part 32</label>
+                @Html.TextBoxFor(m=>m.Part_32, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_33" class="form-label">Part 33</label>
+                @Html.TextBoxFor(m=>m.Part_33, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_34" class="form-label">Part 34</label>
+                @Html.TextBoxFor(m=>m.Part_34, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_35" class="form-label">Part 35</label>
+                @Html.TextBoxFor(m=>m.Part_35, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_36" class="form-label">Part 36</label>
+                @Html.TextBoxFor(m=>m.Part_36, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_37" class="form-label">Part 37</label>
+                @Html.TextBoxFor(m=>m.Part_37, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_38" class="form-label">Part 38</label>
+                @Html.TextBoxFor(m=>m.Part_38, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_39" class="form-label">Part 39</label>
+                @Html.TextBoxFor(m=>m.Part_39, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_40" class="form-label">Part_40</label>
+                @Html.TextBoxFor(m=>m.Part_40, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_41" class="form-label">Part_41</label>
+                @Html.TextBoxFor(m=>m.Part_41, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_42" class="form-label">Part_42</label>
+                @Html.TextBoxFor(m=>m.Part_42, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_43" class="form-label">Part_43</label>
+                @Html.TextBoxFor(m=>m.Part_43, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_44" class="form-label">Part_44</label>
+                @Html.TextBoxFor(m=>m.Part_44, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_45" class="form-label">Part_45</label>
+                @Html.TextBoxFor(m=>m.Part_45, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_46" class="form-label">Part_46</label>
+                @Html.TextBoxFor(m=>m.Part_46, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_47" class="form-label">Part_47</label>
+                @Html.TextBoxFor(m=>m.Part_47, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_48" class="form-label">Part_48</label>
+                @Html.TextBoxFor(m=>m.Part_48, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_49" class="form-label">Part_49</label>
+                @Html.TextBoxFor(m=>m.Part_49, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Part_50" class="form-label">Part_50</label>
+                @Html.TextBoxFor(m=>m.Part_50, new{@class="form-control"})
+            </div>
+            <div class="modal-footer">
+                <a href="/Productengineer/bomPE" class="btn btn-secondary">Cancel</a>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+        }
+
+    </div>
+</div>

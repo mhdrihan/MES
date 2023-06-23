@@ -1,0 +1,37 @@
+﻿@model MES.Models.serialcounter
+
+<div class="card mt-5">
+    <div class="card-header bg-secondary text-white">Form Input Data</div>
+    <div class="card-body">
+
+        @using (Html.BeginForm("Saveserialcounter", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="form-group">
+                    <label for="Station_ID" class="form-label">Station ID</label>
+                @Html.DropDownListFor(m=>m.Station_ID, ViewBag.stationID as SelectList, "Pilih Station", new {@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Station_Suffix" class="form-label">Station Suffix</label>
+                @Html.TextBoxFor(m=>m.Station_Suffix, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Year_Code" class="form-label">Year Code</label>
+                @Html.TextBoxFor(m=>m.Year_Code, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Week_Code" class="form-label">Week Code</label>
+                @Html.TextBoxFor(m=>m.Week_Code, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Counter_Code" class="form-label">Counter_Code</label>
+                @Html.TextBoxFor(m=>m.Counter_Code, new{@class="form-control"})
+            </div>
+
+            <div class="modal-footer">
+            <a href="/Admin/serialcounterAd" class="btn btn-secondary">Cancel</a>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            
+        }
+    </div>
+</div>

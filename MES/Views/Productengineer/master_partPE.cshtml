@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "_layout_productengineer";
+}
+<div class="card shadow mb-4">
+    <div class="card-header">
+        <div class="row justify-content-center">
+            <div class="col-sm-10">
+                <h6 class="m-0 font-weight-bold text-primary text-lg card-title btn-sm">Part Master</h6>
+            </div>
+            <div class="col-sm-1">
+                <a class="btn btn-success btn-sm" href="../Productengineer/Savemasterpart">
+                    <i></i>Add Data
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Material ID</th>
+                        <th>Material Name</th>
+                        <th>Vendor</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.PartList.Count > 0)
+                    {
+                        foreach (var masterpart in @Model.PartList)
+                        {
+                            <tr>
+                                <td>@masterpart.Material_ID</td>
+                                <td>@masterpart.Material_Name</td>
+                                <td>@masterpart.Vendor</td>
+                                <td>
+                                    <a href="../Productengineer/Updatemasterpart/?Materialid=@masterpart.Material_ID" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a href="../Productengineer/Deletemasterpart/?Materialid=@masterpart.Material_ID" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

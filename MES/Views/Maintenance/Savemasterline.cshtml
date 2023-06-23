@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "_layout_maintenance";
+}
+
+@model MES.Models.masterline
+
+<div class="card mt-5">
+    <div class="card-header bg-secondary text-white">Form Input Data</div>
+    <div class="card-body">
+
+        @using (Html.BeginForm("Savemasterline", "Maintenance", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="form-group">
+                <label for="Line_ID" class="form-label">Line ID</label>
+                @Html.TextBoxFor(m=>m.Line_ID, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Line_Name" class="form-label">Line Name</label>
+                @Html.TextBoxFor(m=>m.Line_Name, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Line_Location" class="form-label">Line Location</label>
+                @Html.TextBoxFor(m=>m.Line_Location, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Line_Description" class="form-label">Line Description</label>
+                @Html.TextBoxFor(m=>m.Line_Description, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Last_Modify" class="form-label">Last Modify</label>
+                @Html.TextBoxFor(m=>m.Last_Modify, new{@class="form-control datepicker" , @type = "datetime-local"})
+            </div>
+            <div class="form-group">
+                <label for="Transact_By" class="form-label">Tester Name</label>
+                @Html.TextBoxFor(m=>m.Transact_By, new{@class="form-control"})
+            </div>
+            <div class="modal-footer">
+                <a href="/Maintenance/masterlineM" class="btn btn-secondary">Cancel</a>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        }
+    </div>
+</div>

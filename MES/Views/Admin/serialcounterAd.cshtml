@@ -1,0 +1,44 @@
+﻿<div class="card shadow mb-4">
+    <div class="card-header">
+        <div class="row justify-content-center">
+            <div class="col-sm-10">
+                <h6 class="m-0 font-weight-bold text-primary text-lg card-title btn-sm">Serial Counter</h6>
+            </div>
+            <div class="col-sm-2">
+                <a class="btn btn-success btn-sm" href="../Admin/Saveserialcounter">
+                    <i></i>Add Data
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Station ID</th>
+                        <th>Station Suffix</th>
+                        <th>Year Code</th>
+                        <th>Week Code</th>
+                        <th>Counter Code</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.CounterList.Count > 0)
+                    {
+                        foreach (var serialcounter in @Model.CounterList)
+                        {
+                            <tr>
+                                <td>@serialcounter.Station_ID</td>
+                                <td>@serialcounter.Station_Suffix</td>
+                                <td>@serialcounter.Year_Code</td>
+                                <td>@serialcounter.Week_Code</td>
+                                <td>@serialcounter.Counter_Code</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

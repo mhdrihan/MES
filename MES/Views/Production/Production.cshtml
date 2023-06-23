@@ -1,0 +1,75 @@
+﻿@{
+    Layout = "_layout_production";
+}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Content Row -->
+        <div class="row">
+
+            <!-- Pending Requests Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <a href="/Production/masterorderOP"> 
+                <div class="card border-left-primary shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                    Master Order
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                    @ViewBag.OrderCount
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-cubes fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+                <a href="/Production/master_referenceOP">
+                <div class="card border-left-success shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                    Master Refference
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                    @ViewBag.RefferenceCount
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-folder-open fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+                <a href="/Production/master_workplan">
+                <div class="card border-left-info shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                    Master Workplan
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                    @ViewBag.WorkplanCount
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-sitemap fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>

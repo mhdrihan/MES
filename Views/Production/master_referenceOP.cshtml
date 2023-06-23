@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "_layout_production";
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Refference ID</th>
+                        <th>Refference Name</th>
+                        <th>Refference Description</th>
+                        <th>Last Modify</th>
+                        <th>Transact By</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.RefferenceList.Count > 0)
+                    {
+                        foreach (var master_refference in @Model.RefferenceList)
+                        {
+                            <tr>
+                                <td>@master_refference.Refference_ID</td>
+                                <td>@master_refference.Refference_Name</td>
+                                <td>@master_refference.Refference_Description</td>
+                                <td>@master_refference.Last_Modify</td>
+                                <td>@master_refference.Transact_By</td>
+                                <td>
+                                    <a class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

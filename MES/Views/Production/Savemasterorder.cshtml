@@ -1,0 +1,77 @@
+﻿@{
+    Layout = "_layout_production";
+}
+
+@model MES.Models.masterorder
+
+<div class="card mt-5">
+    <div class="card-header bg-secondary text-white">Form Input Data</div>
+    <div class="card-body">
+
+        @using (Html.BeginForm("Savemasterorder", "Production", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="form-group">
+                <label for="Work_Order" class="form-label">Work Order</label>
+                @Html.TextBoxFor(m=>m.Work_Order, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                            <label for="Refference_Name" class="form-label">Refference Name</label>
+                @Html.DropDownListFor(m=>m.Refference_Name, ViewBag.RefferenceName as SelectList, "Pilih Refference", new {@class="form-control"})
+                        </div>
+            <div class="form-group">
+                            <label for="Work_Plan" class="form-label">Work Plan</label>
+                @Html.DropDownListFor(m=>m.Work_Plan, ViewBag.WorkPlan as SelectList, "Pilih Work Plan", new {@class="form-control"})
+                        </div>
+            <div class="form-group">
+                <label for="Qty_Order" class="form-label">Qty_Order</label>
+                @Html.TextBoxFor(m=>m.Qty_Order, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Qty_Launching" class="form-label">Qty_Launching</label>
+                @Html.TextBoxFor(m=>m.Qty_Launching, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                 <label for="Status_Order" class="form-label">Status Order</label>
+                 <select asp-for="Status_Order" asp-items="@ViewBag.StatusOrder" class="form-control"> </select>
+            </div>
+            <div class="form-group">
+                <label for="Date_Order" class="form-label">Date Order</label>
+                @Html.TextBoxFor(m=>m.Date_Order, new{@class="form-control datepicker" , @type = "datetime-local"})
+            </div>
+            <div class="form-group">
+                <label for="Date_Complete" class="form-label">Date_Complete</label>
+                @Html.TextBoxFor(m=>m.Date_Complete, new{@class="form-control datepicker" , @type = "datetime-local"})
+            </div>
+            <div class="form-group">
+                <label for="Transact_By" class="form-label">Tester Name</label>
+                @Html.TextBoxFor(m=>m.Transact_By, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Username" class="form-label">Username</label>
+                @Html.TextBoxFor(m=>m.Username, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="WO_Comment" class="form-label">WO Comment</label>
+                @Html.TextBoxFor(m=>m.WO_Comment, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Priority_WO" class="form-label">Priority WO</label>
+                @Html.TextBoxFor(m=>m.Priority_WO, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Station_ID" class="form-label">Station ID</label>
+                @Html.DropDownListFor(m=>m.Station_ID, ViewBag.stationID as SelectList, "Pilih Station", new {@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Station_Suffix" class="form-label">Station Suffix</label>
+                @Html.TextBoxFor(m=>m.Station_Suffix, new{@class="form-control"})
+            </div>
+
+            <div class="modal-footer">
+            <a href="/Production/masterorderOP" class="btn btn-secondary">Cancel</a>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+        }
+    </div>
+</div>

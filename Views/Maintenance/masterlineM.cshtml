@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "_layout_maintenance";
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Master Line</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Line ID</th>
+                        <th>Line Name</th>
+                        <th>Line Location</th>
+                        <th>Line Description</th>
+                        <th>Last Modify</th>
+                        <th>Transact By</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.LineList.Count > 0)
+                    {
+                        foreach (var masterline in @Model.LineList)
+                        {
+                            <tr>
+                                <td>@masterline.Line_ID</td>
+                                <td>@masterline.Line_Name</td>
+                                <td>@masterline.Line_Location</td>
+                                <td>@masterline.Line_Description</td>
+                                <td>@masterline.Last_Modify</td>
+                                <td>@masterline.Transact_By</td>
+                                <td>
+                                    <a class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

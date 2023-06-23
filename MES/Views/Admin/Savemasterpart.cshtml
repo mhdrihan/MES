@@ -1,0 +1,25 @@
+﻿@model MES.Models.masterpart
+
+<div class="card mt-5">
+    <div class="card-header bg-secondary text-white">Form Input Data</div>
+    <div class="card-body">
+
+        @using (Html.BeginForm("Savemasterpart", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+                <div class="mb-3">
+                    <label for="Material_Name" class="form-label">Material Name</label>
+                    @Html.DropDownListFor(m=>m.Material_Name, ViewBag.MaterialID as SelectList, "Pilih Material Name", new {@class="form-control"})
+                </div>
+
+                <div class="mb-3">
+                    <label for="Vendor" class="form-label">Vendor</label>
+                @Html.TextBoxFor(m=>m.Vendor, new{@class="form-control"})
+                </div>
+                <div class="modal-footer">
+                    <a href="/Admin/master_part" class="btn btn-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+        }
+
+    </div>
+</div>

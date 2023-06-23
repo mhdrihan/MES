@@ -1,0 +1,61 @@
+﻿<div class="card shadow mb-4">
+    <div class="card-header">
+        <div class="row justify-content-center">
+            <div class="col-sm-10">
+                <h6 class="m-0 font-weight-bold text-primary text-lg card-title btn-sm">Master Station</h6>
+            </div>
+            <div class="col-sm-1">
+                <a class="btn btn-success btn-sm" href="../Admin/Savemasterstation">
+                    <i></i>Add Data
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Station ID</th>
+                        <th>Station Suffix</th>
+                        <th>Station Name</th>
+                        <th>Process ID</th>
+                        <th>Line ID</th>
+                        <th>Target Output</th>
+                        <th>Target Yield</th>
+                        <th>Last Modify</th>
+                        <th>Transact By</th>
+                        <th>Tester Name</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.StationList.Count > 0)
+                    {
+                        foreach (var masterstation in @Model.StationList)
+                        {
+                            <tr>
+                                <td>@masterstation.Id</td>
+                                <td>@masterstation.Station_ID</td>
+                                <td>@masterstation.Station_Suffix</td>
+                                <td>@masterstation.Station_Name</td>
+                                <td>@masterstation.Process_ID</td>
+                                <td>@masterstation.Line_ID</td>
+                                <td>@masterstation.Target_Output</td>
+                                <td>@masterstation.Target_Yield</td>
+                                <td>@masterstation.Last_Modify</td>
+                                <td>@masterstation.Transact_By</td>
+                                <td>@masterstation.Tester_Name</td>
+                                <td>
+                                    <a href="../Admin/Updatemasterstation/?id=@masterstation.Id" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a href="../Admin/Deletemasterstation/?id=@masterstation.Id" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

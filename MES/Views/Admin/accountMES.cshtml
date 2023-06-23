@@ -1,0 +1,50 @@
+﻿<div class="card shadow mb-4">
+    <div class="card-header">
+        <div class="row justify-content-center">
+            <div class="col-sm-10 ">
+                <h6 class="m-0 font-weight-bold text-primary text-lg card-title btn-sm">Account MES</h6>
+            </div> 
+            <div class="col-sm-1">
+                <a class="btn btn-success btn-sm" href="../Admin/SaveaccountMES">
+                    Add Data
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID_User</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Station ID</th>
+                        <th>User Level</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.MasterList.Count > 0)
+                    {
+                        foreach (var masteruser in @Model.MasterList)
+                        {
+                            <tr>
+                                <td>@masteruser.ID_User</td>
+                                <td>@masteruser.Username</td>
+                                <td>@masteruser.Password</td>
+                                <td>@masteruser.Station_ID</td>
+                                <td>@masteruser.User_Level</td>
+                                <td>
+                                    <a href="../Admin/UpdateaccountMES/?Iduser=@masteruser.ID_User" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a href="../Admin/DeleteaccountMES/?Iduser=@masteruser.ID_User" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+  
+        </div>
+    </div>
+</div>

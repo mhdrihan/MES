@@ -1,0 +1,255 @@
+﻿@model MES.Models.workplan
+
+<div class="card mt-5">
+    <div class="card-header bg-secondary text-white">Update Data @* as @Accessor.HttpContext.Session.GetString("Username") with role = @Accessor.HttpContext.Session.GetInt32("Role")*@</div>
+    <div class="card-body">
+
+        @using (Html.BeginForm("Updatemasterworkplan", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+            @Html.HiddenFor(m => m.Flow_ID)
+
+            <div class="form-group">
+                <label for="Flow_Name" class="form-label">Flow Name</label>
+                @Html.TextBoxFor(m=>m.Flow_Name, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Refference_Name" class="form-label">Refference Name</label>
+                @Html.TextBoxFor(m=>m.Refference_Name, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Line_ID" class="form-label">Line ID</label>
+                @Html.DropDownListFor(m=>m.Line_ID, ViewBag.Line_Id as SelectList, "Pilih Line", new {@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Valid_Status" class="form-label">Valid Status</label>
+                @Html.TextBoxFor(m=>m.Valid_Status, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Revision_Number" class="form-label">Revision Number</label>
+                @Html.TextBoxFor(m=>m.Revision_Number, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Last_Modify" class="form-label">Last Modify</label>
+                @Html.TextBoxFor(m=>m.Last_Modify, new{@class="form-control datepicker" , @type = "datetime-local"})
+            </div>
+            <div class="form-group">
+                <label for="Transact_By" class="form-label">Transact By</label>
+                @Html.TextBoxFor(m=>m.Transact_By, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Flow_Description" class="form-label">Flow Description</label>
+                @Html.TextBoxFor(m=>m.Flow_Description, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_Qty" class="form-label">Process Qty</label>
+                @Html.TextBoxFor(m=>m.Process_Qty, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_1" class="form-label">Process 1</label>
+                @Html.DropDownListFor(m=>m.Process_1, ViewBag.StationID as SelectList, "Pilih Proccess", new {@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_2" class="form-label">Process 2</label>
+                @Html.DropDownListFor(m=>m.Process_2, ViewBag.StationID as SelectList, "Pilih Proccess", new {@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_3" class="form-label">Process 3</label>
+                @Html.DropDownListFor(m=>m.Process_3, ViewBag.StationID as SelectList, "Pilih Proccess", new {@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_4" class="form-label">Process 4</label>
+                @Html.DropDownListFor(m=>m.Process_4, ViewBag.StationID as SelectList, "Pilih Proccess", new {@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_5" class="form-label">Process 5</label>
+                @Html.DropDownListFor(m=>m.Process_5, ViewBag.StationID as SelectList, "Pilih Proccess", new {@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_6" class="form-label">Process 6</label>
+                @Html.TextBoxFor(m=>m.Process_6, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_7" class="form-label">Process 7</label>
+                @Html.TextBoxFor(m=>m.Process_7, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_8" class="form-label">Process 8</label>
+                @Html.TextBoxFor(m=>m.Process_8, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_9" class="form-label">Process 9</label>
+                @Html.TextBoxFor(m=>m.Process_9, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_10" class="form-label">Process 10</label>
+                @Html.TextBoxFor(m=>m.Process_10, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_11" class="form-label">Process 11</label>
+                @Html.TextBoxFor(m=>m.Process_11, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_12" class="form-label">Process 12</label>
+                @Html.TextBoxFor(m=>m.Process_12, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_13" class="form-label">Process 13</label>
+                @Html.TextBoxFor(m=>m.Process_13, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_14" class="form-label">Process 14</label>
+                @Html.TextBoxFor(m=>m.Process_14, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_15" class="form-label">Process 15</label>
+                @Html.TextBoxFor(m=>m.Process_15, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_16" class="form-label">Process 16</label>
+                @Html.TextBoxFor(m=>m.Process_16, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_17" class="form-label">Process 17</label>
+                @Html.TextBoxFor(m=>m.Process_17, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_18" class="form-label">Process 18</label>
+                @Html.TextBoxFor(m=>m.Process_18, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_19" class="form-label">Process 19</label>
+                @Html.TextBoxFor(m=>m.Process_19, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_20" class="form-label">Process 20</label>
+                @Html.TextBoxFor(m=>m.Process_20, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_21" class="form-label">Process 21</label>
+                @Html.TextBoxFor(m=>m.Process_21, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_22" class="form-label">Process 22</label>
+                @Html.TextBoxFor(m=>m.Process_22, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_23" class="form-label">Process 23</label>
+                @Html.TextBoxFor(m=>m.Process_23, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_24" class="form-label">Process 24</label>
+                @Html.TextBoxFor(m=>m.Process_24, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_25" class="form-label">Process 25</label>
+                 @Html.TextBoxFor(m=>m.Process_25, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_26" class="form-label">Process 26</label>
+                @Html.TextBoxFor(m=>m.Process_26, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_27" class="form-label">Process 27</label>
+                @Html.TextBoxFor(m=>m.Process_27, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_28" class="form-label">Process 28</label>
+                @Html.TextBoxFor(m=>m.Process_28, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_29" class="form-label">Process 29</label>
+                @Html.TextBoxFor(m=>m.Process_29, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_30" class="form-label">Process 30</label>
+                @Html.TextBoxFor(m=>m.Process_30, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_31" class="form-label">Process 31</label>
+                @Html.TextBoxFor(m=>m.Process_31, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_32" class="form-label">Process 32</label>
+                @Html.TextBoxFor(m=>m.Process_32, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_33" class="form-label">Process 33</label>
+                @Html.TextBoxFor(m=>m.Process_33, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_34" class="form-label">Process 34</label>
+                @Html.TextBoxFor(m=>m.Process_34, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_35" class="form-label">Process 35</label>
+                @Html.TextBoxFor(m=>m.Process_35, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_36" class="form-label">Process 36</label>
+                @Html.TextBoxFor(m=>m.Process_36, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_37" class="form-label">Process 37</label>
+                @Html.TextBoxFor(m=>m.Process_37, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_38" class="form-label">Process 38</label>
+                @Html.TextBoxFor(m=>m.Process_38, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_39" class="form-label">Process 39</label>
+                @Html.TextBoxFor(m=>m.Process_39, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_40" class="form-label">Process 40</label>
+                @Html.TextBoxFor(m=>m.Process_40, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_41" class="form-label">Process 41</label>
+                @Html.TextBoxFor(m=>m.Process_41, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_42" class="form-label">Process 42</label>
+                @Html.TextBoxFor(m=>m.Process_42, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_43" class="form-label">Process 43</label>
+                @Html.TextBoxFor(m=>m.Process_43, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_44" class="form-label">Process 44</label>
+                @Html.TextBoxFor(m=>m.Process_44, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_45" class="form-label">Process 45</label>
+                @Html.TextBoxFor(m=>m.Process_45, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_46" class="form-label">Process 46</label>
+                @Html.TextBoxFor(m=>m.Process_46, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_47" class="form-label">Process 47</label>
+                @Html.TextBoxFor(m=>m.Process_47, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_48" class="form-label">Process 48</label>
+                @Html.TextBoxFor(m=>m.Process_48, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_49" class="form-label">Process 49</label>
+                @Html.TextBoxFor(m=>m.Process_49, new{@class="form-control"})
+            </div>
+            <div class="form-group">
+                <label for="Process_50" class="form-label">Process 50</label>
+                @Html.TextBoxFor(m=>m.Process_50, new{@class="form-control"})
+            </div>
+            <div class="modal-footer">
+                <a href="/Admin/masterworkplan" class="btn btn-secondary">Cancel</a>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        }
+
+    </div>
+</div>
